@@ -1,0 +1,19 @@
+{
+  "name": "repro-rslib-bundle-typings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist dist-types && tsc && api-extractor run --local"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.3",
+  "dependencies": {},
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.47.12",
+    "type-fest": "^4.27.0",
+    "typescript": "^5.6.3"
+  }
+}
